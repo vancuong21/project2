@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>User role search</title>
+</head>
+
+<body>
+
+<h1>User Role List</h1>
+<a th:href="@{/user-role/new}">Add new</a>
+
+<form method="get" th:action="@{/user-role/search}">
+    <input name="userId" placeholder="Enter userId..." th:value="${userId}" type="text">
+    <input name="role" placeholder="Enter role..." th:value="${role}" type="text">
+    <input name="page" placeholder="Enter page..." th:value="${page}" type="text">
+
+    <select name="size">
+        <option th:selected="${size == 5}" value="5">5</option>
+        <option th:selected="${size == 10}" value="10">10</option>
+    </select>
+
+    <button type="submit">Search</button>
+</form>
+
+<table border="1">
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Role</th>
+        <th>User ID</th>
+        <th>Actions</th>
+
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="d : ${userRoleList}">
+        <td th:text="${d.id}"></td>
+        <td th:text="${d.role}"></td>
+        <td th:text="${d.userId}"></td>
+
+        <!--    <td><img height="100" th:src="@{'/user-role/download?filename=' + ${d.avatar}}"></td>-->
+
+        <!--    <td th:text="${#dates.format(d.createdAt, 'dd/MM/yyyy HH:mm')}"></td>-->
+        <td>
+            <a th:href="@{'/user-role/get/' + ${d.id}}">View</a>
+            <a th:href="@{'/user-role/edit?id=' + ${d.id}}">Edit</a>
+            <a th:href="@{'/user-role/delete?id=' + ${d.id}}">Delete</a>
+        </td>
+    </tr>
+    </tbody>
+    <tfoot>
+    <tr>
+        <td colspan="4">
+            Tổng <span th:text="${count}"></span> bản ghi trong <span th:text="${totalPage}"> </span> trang
+        </td>
+    </tr>
+    </tfoot>
+</table>
+</body>
+
+</html></title>
+</head>
+<body>
+
+</body>
+</html>

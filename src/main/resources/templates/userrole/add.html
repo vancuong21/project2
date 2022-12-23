@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" layout:decorate="/template.html">
+<head>
+    <meta charset="UTF-8">
+    <title>add new User</title>
+</head>
+<body layout:fragment="body">
+<h1>add new user role </h1>
+<form method="post" th:action="@{/user-role/new}">
+    <div>
+        <input name="userId" placeholder="enter userId" type="text">
+    </div>
+    <div>
+        <input name="role" type="radio" value="ROLE_ADMIN">ROLE_ADMIN
+    </div>
+    <div>
+        <input name="role" type="radio" value="ROLE_STUDENT">ROLE_STUDENT
+    </div>
+    <div>
+        <button type="submit">Create</button>
+    </div>
+</form>
+</body>
+</html>

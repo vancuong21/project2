@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns:layout="http://www.thymeleaf.org"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>JMaster.io</title>
+    <!-- CSS only -->
+    <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+            rel="stylesheet">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+          rel="stylesheet"/>
+
+</head>
+<body>
+<div class="row">
+    <div class="col-12">
+        <!-- chua logo -text -->
+        <h1>
+            <i class="fa-brands fa-java"></i> He thong Admin
+        </h1>
+    </div>
+</div>
+
+<hr/>
+<div class="row">
+    <div class="col-12 col-sm-3" th:replace="/fragment.html :: main-menu"></div>
+    <div class="col-12 col-sm-9" layout:fragment="body">
+        <!-- noi dung ben trong se dc thay doi -->
+
+
+    </div>
+</div>
+<hr/>
+
+<div class="row">
+    <div class="col-12">
+        <div th:replace="/fragment.html :: menu-footer"></div>
+    </div>
+</div>
+</body>
+</html>
