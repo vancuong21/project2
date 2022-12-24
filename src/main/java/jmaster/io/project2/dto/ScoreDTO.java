@@ -8,7 +8,7 @@ public class ScoreDTO {
     private Integer id;
     private double score; // diem thi mon hoc/ nguoi
 
-    private StudentDTO studentId;
+    private int studentId;
 
     private CourseDTO course;
 }

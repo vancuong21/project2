@@ -116,6 +116,11 @@ public class UserService {
         userDTO.setBirthdate(user.getBirthdate());
         userDTO.setPassword(user.getPassword());
         userDTO.setAvatar(user.getAvatar());
+//        List<UserRoleDTO> userRoleDTOs = new ArrayList<>();
+//        for (UserRole userRole : user.getUserRoles()) {
+//            UserRoleDTO userRoleDTO =
+//                    userRoleDTOs.add(userRoleDTO);
+//        }
         // doc ra thoai mai
         // co the them
         userDTO.setCreatedAt(user.getCreatedAt());

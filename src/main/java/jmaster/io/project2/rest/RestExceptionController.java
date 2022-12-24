@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
 import javax.persistence.NoResultException;
-import java.sql.SQLException;
 
 @RestControllerAdvice(basePackages = "jmaster.io.project2.rest")
 public class RestExceptionController {
@@ -24,7 +23,7 @@ public class RestExceptionController {
 
     @ExceptionHandler({Exception.class})
     @ResponseStatus(code = HttpStatus.INTERNAL_SERVER_ERROR)
-    public ResponseDTO<Void> exception(SQLException ex) {
+    public ResponseDTO<Void> exception(Exception ex) {
         logger.error("sql ex: ", ex);
         return ResponseDTO.<Void>builder().status(500).error("sarver error").build();
     }

@@ -26,6 +26,6 @@ public class UserDTO {
     private MultipartFile file;
     private Date createdAt;
 
-    @JsonManagedReference // bên này vẫn lấy full, còn bên UserRoleDTO...
+//      @JsonManagedReference // bên này vẫn lấy full, còn bên UserRoleDTO... ben kia ko de jsonbank thi fai bo cho nay di
     private List<UserRoleDTO> userRoles;
 }
