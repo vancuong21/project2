@@ -23,7 +23,6 @@ public class ExceptionController {
 
     @ExceptionHandler({Exception.class})
     public String exception(SQLException ex) {
-        // ex.printStackTrace();
         logger.error("sql ex: ", ex);
         return "exception.html";// view
     }

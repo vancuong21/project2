@@ -14,7 +14,7 @@ public class Student {
     @Column(unique = true)
     private String studentCode;
     @OneToOne
-    @PrimaryKeyJoinColumn // ràng buộc student_id va user ko dc trùng nhau
+    @PrimaryKeyJoinColumn // chung cột với Student_id
     private User user;
 
     // có thể thêm @OneToMany List<Scrore> nếu cần
