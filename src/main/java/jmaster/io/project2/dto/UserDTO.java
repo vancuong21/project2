@@ -2,7 +2,6 @@ package jmaster.io.project2.dto;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.fasterxml.jackson.annotation.JsonManagedReference;
 import lombok.Data;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.web.multipart.MultipartFile;
@@ -26,6 +25,6 @@ public class UserDTO {
     private MultipartFile file;
     private Date createdAt;
 
-//      @JsonManagedReference // bên này vẫn lấy full, còn bên UserRoleDTO... ben kia ko de jsonbank thi fai bo cho nay di
+    //      @JsonManagedReference // bên này vẫn lấy full, còn bên UserRoleDTO... ben kia ko de jsonbank thi fai bo cho nay di
     private List<UserRoleDTO> userRoles;
 }

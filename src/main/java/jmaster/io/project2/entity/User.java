@@ -54,5 +54,5 @@ public class User {
 //    @Column(name = "role")
 //    private List<String> roles;
 
-
+    private String email;
 }

@@ -63,6 +63,12 @@ public class StudentService {
         return new ModelMapper().map(student, StudentDTO.class);
     }
 
+    // lay ra theo id
+    public StudentDTO getById(int id) {
+        Student student = studentRepo.findById(id).orElseThrow(NoResultException::new);
+        return new ModelMapper().map(student, StudentDTO.class);
+    }
+
 
     // nhom search
     public PageDTO<StudentDTO> search(String name, String studentCode, int page, int size) {

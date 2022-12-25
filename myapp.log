@@ -1133,3 +1133,1402 @@ org.springframework.web.bind.MethodArgumentNotValidException: Validation failed 
 2022-12-24 15:05:23.276  INFO 13100 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2022-12-24 15:05:23.282  INFO 13100 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2022-12-24 15:05:23.348  INFO 13100 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-12-24 19:10:21.601  INFO 2560 --- [restartedMain] jmaster.io.project2.Project2Application  : Starting Project2Application using Java 17.0.5 on CuongVu with PID 2560 (C:\Users\cuong\OneDrive\Desktop\KhoaHocSpring_JMaster\spring\project2\target\classes started by CuongVu in C:\Users\cuong\OneDrive\Desktop\KhoaHocSpring_JMaster\spring\project2)
+2022-12-24 19:10:21.605  INFO 2560 --- [restartedMain] jmaster.io.project2.Project2Application  : No active profile set, falling back to 1 default profile: "default"
+2022-12-24 19:10:21.716  INFO 2560 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-12-24 19:10:21.716  INFO 2560 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-12-24 19:10:23.053  INFO 2560 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-24 19:10:23.157  INFO 2560 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 88 ms. Found 6 JPA repository interfaces.
+2022-12-24 19:10:23.982  INFO 2560 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-12-24 19:10:24.001  INFO 2560 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-24 19:10:24.002  INFO 2560 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2022-12-24 19:10:24.131  INFO 2560 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-24 19:10:24.133  INFO 2560 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2414 ms
+2022-12-24 19:10:24.299  INFO 2560 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-24 19:10:24.830  INFO 2560 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-24 19:10:24.907  INFO 2560 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-24 19:10:25.028  INFO 2560 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2022-12-24 19:10:25.335  INFO 2560 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-24 19:10:25.511  INFO 2560 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-12-24 19:10:26.820  INFO 2560 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-24 19:10:26.833  INFO 2560 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-24 19:10:28.103  WARN 2560 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-24 19:10:29.233  INFO 2560 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-12-24 19:10:29.291  INFO 2560 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-24 19:10:29.305  INFO 2560 --- [restartedMain] jmaster.io.project2.Project2Application  : Started Project2Application in 8.405 seconds (JVM running for 10.005)
+2022-12-24 19:26:13.069  INFO 2560 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-24 19:26:13.079  INFO 2560 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-12-24 19:26:13.100  INFO 2560 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-12-24 19:26:22.483  INFO 18472 --- [restartedMain] jmaster.io.project2.Project2Application  : Starting Project2Application using Java 17.0.5 on CuongVu with PID 18472 (C:\Users\cuong\OneDrive\Desktop\KhoaHocSpring_JMaster\spring\project2\target\classes started by CuongVu in C:\Users\cuong\OneDrive\Desktop\KhoaHocSpring_JMaster\spring\project2)
+2022-12-24 19:26:22.486  INFO 18472 --- [restartedMain] jmaster.io.project2.Project2Application  : No active profile set, falling back to 1 default profile: "default"
+2022-12-24 19:26:22.651  INFO 18472 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-12-24 19:26:22.651  INFO 18472 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-12-24 19:26:24.080  INFO 18472 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-24 19:26:24.184  INFO 18472 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 92 ms. Found 6 JPA repository interfaces.
+2022-12-24 19:26:25.070  INFO 18472 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-12-24 19:26:25.082  INFO 18472 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-24 19:26:25.082  INFO 18472 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2022-12-24 19:26:25.271  INFO 18472 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-24 19:26:25.272  INFO 18472 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2620 ms
+2022-12-24 19:26:25.626  INFO 18472 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-24 19:26:26.246  INFO 18472 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-24 19:26:26.331  INFO 18472 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-24 19:26:26.451  INFO 18472 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2022-12-24 19:26:26.739  INFO 18472 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-24 19:26:26.906  INFO 18472 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-12-24 19:26:28.069  INFO 18472 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-24 19:26:28.081  INFO 18472 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-24 19:26:29.398  WARN 18472 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-24 19:26:30.539  INFO 18472 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-12-24 19:26:30.591  INFO 18472 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-24 19:26:30.618  INFO 18472 --- [restartedMain] jmaster.io.project2.Project2Application  : Started Project2Application in 9.085 seconds (JVM running for 10.265)
+2022-12-24 19:29:14.968  INFO 18472 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-24 19:29:14.972  INFO 18472 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-12-24 19:29:14.986  INFO 18472 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-12-24 19:29:23.911  INFO 18892 --- [restartedMain] jmaster.io.project2.Project2Application  : Starting Project2Application using Java 17.0.5 on CuongVu with PID 18892 (C:\Users\cuong\OneDrive\Desktop\KhoaHocSpring_JMaster\spring\project2\target\classes started by CuongVu in C:\Users\cuong\OneDrive\Desktop\KhoaHocSpring_JMaster\spring\project2)
+2022-12-24 19:29:23.915  INFO 18892 --- [restartedMain] jmaster.io.project2.Project2Application  : No active profile set, falling back to 1 default profile: "default"
+2022-12-24 19:29:24.087  INFO 18892 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-12-24 19:29:24.088  INFO 18892 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-12-24 19:29:25.292  INFO 18892 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-24 19:29:25.380  INFO 18892 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 77 ms. Found 6 JPA repository interfaces.
+2022-12-24 19:29:26.187  INFO 18892 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-12-24 19:29:26.216  INFO 18892 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-24 19:29:26.218  INFO 18892 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2022-12-24 19:29:26.400  INFO 18892 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-24 19:29:26.401  INFO 18892 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2312 ms
+2022-12-24 19:29:26.628  INFO 18892 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-24 19:29:27.158  INFO 18892 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-24 19:29:27.227  INFO 18892 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-24 19:29:27.295  INFO 18892 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2022-12-24 19:29:27.575  INFO 18892 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-24 19:29:27.741  INFO 18892 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-12-24 19:29:28.820  INFO 18892 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-24 19:29:28.830  INFO 18892 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-24 19:29:29.987  WARN 18892 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-24 19:29:31.283  INFO 18892 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-12-24 19:29:31.339  INFO 18892 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-24 19:29:31.357  INFO 18892 --- [restartedMain] jmaster.io.project2.Project2Application  : Started Project2Application in 8.61 seconds (JVM running for 9.728)
+2022-12-24 19:29:46.020  INFO 18892 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-24 19:29:46.022  INFO 18892 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-12-24 19:29:46.032  INFO 18892 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-12-24 19:29:53.516  INFO 15032 --- [restartedMain] jmaster.io.project2.Project2Application  : Starting Project2Application using Java 17.0.5 on CuongVu with PID 15032 (C:\Users\cuong\OneDrive\Desktop\KhoaHocSpring_JMaster\spring\project2\target\classes started by CuongVu in C:\Users\cuong\OneDrive\Desktop\KhoaHocSpring_JMaster\spring\project2)
+2022-12-24 19:29:53.518  INFO 15032 --- [restartedMain] jmaster.io.project2.Project2Application  : No active profile set, falling back to 1 default profile: "default"
+2022-12-24 19:29:53.629  INFO 15032 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-12-24 19:29:53.630  INFO 15032 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-12-24 19:29:54.934  INFO 15032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-24 19:29:55.035  INFO 15032 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 89 ms. Found 6 JPA repository interfaces.
+2022-12-24 19:29:55.828  INFO 15032 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-12-24 19:29:55.837  INFO 15032 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-24 19:29:55.838  INFO 15032 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2022-12-24 19:29:55.970  INFO 15032 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-24 19:29:55.971  INFO 15032 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2340 ms
+2022-12-24 19:29:56.143  INFO 15032 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-24 19:29:56.519  INFO 15032 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-24 19:29:56.587  INFO 15032 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-24 19:29:56.658  INFO 15032 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2022-12-24 19:29:56.902  INFO 15032 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-24 19:29:57.070  INFO 15032 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-12-24 19:29:58.097  INFO 15032 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-24 19:29:58.111  INFO 15032 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-24 19:29:58.129  WARN 15032 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'project2Application': Initialization of bean failed; nested exception is java.lang.IllegalStateException: Encountered invalid @Scheduled method 'hello': For input string: "" '/5' in cron expression "/5 * * * * *"
+2022-12-24 19:29:58.130  INFO 15032 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-24 19:29:58.136  INFO 15032 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-12-24 19:29:58.149  INFO 15032 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-12-24 19:29:58.151  INFO 15032 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-12-24 19:29:58.166  INFO 15032 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-12-24 19:29:58.210 ERROR 15032 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'project2Application': Initialization of bean failed; nested exception is java.lang.IllegalStateException: Encountered invalid @Scheduled method 'hello': For input string: "" '/5' in cron expression "/5 * * * * *"
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:628) ~[spring-beans-5.3.24.jar:5.3.24]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.24.jar:5.3.24]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.24.jar:5.3.24]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.24.jar:5.3.24]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.24.jar:5.3.24]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.24.jar:5.3.24]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-beans-5.3.24.jar:5.3.24]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.24.jar:5.3.24]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.24.jar:5.3.24]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.6.jar:2.7.6]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731) ~[spring-boot-2.7.6.jar:2.7.6]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.6.jar:2.7.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307) ~[spring-boot-2.7.6.jar:2.7.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303) ~[spring-boot-2.7.6.jar:2.7.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292) ~[spring-boot-2.7.6.jar:2.7.6]
+	at jmaster.io.project2.Project2Application.main(Project2Application.java:28) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.7.6.jar:2.7.6]
+Caused by: java.lang.IllegalStateException: Encountered invalid @Scheduled method 'hello': For input string: "" '/5' in cron expression "/5 * * * * *"
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.processScheduled(ScheduledAnnotationBeanPostProcessor.java:518) ~[spring-context-5.3.24.jar:5.3.24]
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.lambda$null$1(ScheduledAnnotationBeanPostProcessor.java:380) ~[spring-context-5.3.24.jar:5.3.24]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[na:na]
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.lambda$postProcessAfterInitialization$2(ScheduledAnnotationBeanPostProcessor.java:380) ~[spring-context-5.3.24.jar:5.3.24]
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:721) ~[na:na]
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.postProcessAfterInitialization(ScheduledAnnotationBeanPostProcessor.java:379) ~[spring-context-5.3.24.jar:5.3.24]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:455) ~[spring-beans-5.3.24.jar:5.3.24]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1808) ~[spring-beans-5.3.24.jar:5.3.24]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620) ~[spring-beans-5.3.24.jar:5.3.24]
+	... 20 common frames omitted
+
+2022-12-24 19:30:16.265  INFO 13404 --- [restartedMain] jmaster.io.project2.Project2Application  : Starting Project2Application using Java 17.0.5 on CuongVu with PID 13404 (C:\Users\cuong\OneDrive\Desktop\KhoaHocSpring_JMaster\spring\project2\target\classes started by CuongVu in C:\Users\cuong\OneDrive\Desktop\KhoaHocSpring_JMaster\spring\project2)
+2022-12-24 19:30:16.268  INFO 13404 --- [restartedMain] jmaster.io.project2.Project2Application  : No active profile set, falling back to 1 default profile: "default"
+2022-12-24 19:30:16.376  INFO 13404 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-12-24 19:30:16.376  INFO 13404 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-12-24 19:30:17.561  INFO 13404 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-24 19:30:17.642  INFO 13404 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 72 ms. Found 6 JPA repository interfaces.
+2022-12-24 19:30:18.578  INFO 13404 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-12-24 19:30:18.588  INFO 13404 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-24 19:30:18.589  INFO 13404 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2022-12-24 19:30:18.706  INFO 13404 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-24 19:30:18.707  INFO 13404 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2329 ms
+2022-12-24 19:30:18.893  INFO 13404 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-24 19:30:19.282  INFO 13404 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-24 19:30:19.340  INFO 13404 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-24 19:30:19.403  INFO 13404 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2022-12-24 19:30:19.669  INFO 13404 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-24 19:30:19.829  INFO 13404 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-12-24 19:30:20.892  INFO 13404 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-24 19:30:20.902  INFO 13404 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-24 19:30:22.031  WARN 13404 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-24 19:30:23.225  INFO 13404 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-12-24 19:30:23.288  INFO 13404 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-24 19:30:23.311  INFO 13404 --- [restartedMain] jmaster.io.project2.Project2Application  : Started Project2Application in 7.936 seconds (JVM running for 9.461)
+2022-12-24 19:41:54.980  INFO 13404 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-24 19:41:54.983  INFO 13404 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-12-24 19:41:54.992  INFO 13404 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-12-24 19:42:04.203  INFO 10528 --- [restartedMain] jmaster.io.project2.Project2Application  : Starting Project2Application using Java 17.0.5 on CuongVu with PID 10528 (C:\Users\cuong\OneDrive\Desktop\KhoaHocSpring_JMaster\spring\project2\target\classes started by CuongVu in C:\Users\cuong\OneDrive\Desktop\KhoaHocSpring_JMaster\spring\project2)
+2022-12-24 19:42:04.208  INFO 10528 --- [restartedMain] jmaster.io.project2.Project2Application  : No active profile set, falling back to 1 default profile: "default"
+2022-12-24 19:42:04.314  INFO 10528 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-12-24 19:42:04.314  INFO 10528 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-12-24 19:42:05.807  INFO 10528 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-24 19:42:05.938  INFO 10528 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 115 ms. Found 6 JPA repository interfaces.
+2022-12-24 19:42:06.888  INFO 10528 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-12-24 19:42:06.898  INFO 10528 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-24 19:42:06.899  INFO 10528 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2022-12-24 19:42:07.033  INFO 10528 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-24 19:42:07.034  INFO 10528 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2718 ms
+2022-12-24 19:42:07.209  INFO 10528 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-24 19:42:07.683  INFO 10528 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-24 19:42:07.748  INFO 10528 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-24 19:42:07.838  INFO 10528 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2022-12-24 19:42:08.125  INFO 10528 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-24 19:42:08.366  INFO 10528 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-12-24 19:42:09.581  INFO 10528 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-24 19:42:09.593  INFO 10528 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-24 19:42:10.755  WARN 10528 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-24 19:42:11.813  INFO 10528 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-12-24 19:42:11.861  INFO 10528 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-24 19:42:11.880  INFO 10528 --- [restartedMain] jmaster.io.project2.Project2Application  : Started Project2Application in 8.507 seconds (JVM running for 10.629)
+2022-12-24 19:43:00.017  INFO 10528 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:44:00.005  INFO 10528 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:44:26.775  INFO 10528 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-24 19:44:26.779  INFO 10528 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-12-24 19:44:26.793  INFO 10528 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-12-24 19:44:37.237  INFO 15700 --- [restartedMain] jmaster.io.project2.Project2Application  : Starting Project2Application using Java 17.0.5 on CuongVu with PID 15700 (C:\Users\cuong\OneDrive\Desktop\KhoaHocSpring_JMaster\spring\project2\target\classes started by CuongVu in C:\Users\cuong\OneDrive\Desktop\KhoaHocSpring_JMaster\spring\project2)
+2022-12-24 19:44:37.239  INFO 15700 --- [restartedMain] jmaster.io.project2.Project2Application  : No active profile set, falling back to 1 default profile: "default"
+2022-12-24 19:44:37.449  INFO 15700 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-12-24 19:44:37.450  INFO 15700 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-12-24 19:44:39.401  INFO 15700 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-24 19:44:39.546  INFO 15700 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 128 ms. Found 6 JPA repository interfaces.
+2022-12-24 19:44:40.727  INFO 15700 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-12-24 19:44:40.744  INFO 15700 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-24 19:44:40.744  INFO 15700 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2022-12-24 19:44:40.971  INFO 15700 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-24 19:44:40.973  INFO 15700 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3514 ms
+2022-12-24 19:44:41.343  INFO 15700 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-24 19:44:42.060  INFO 15700 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-24 19:44:42.190  INFO 15700 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-24 19:44:42.314  INFO 15700 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2022-12-24 19:44:42.611  INFO 15700 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-24 19:44:42.803  INFO 15700 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-12-24 19:44:44.280  INFO 15700 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-24 19:44:44.291  INFO 15700 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-24 19:44:45.496  WARN 15700 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-24 19:44:46.737  INFO 15700 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-12-24 19:44:46.787  INFO 15700 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-24 19:44:46.804  INFO 15700 --- [restartedMain] jmaster.io.project2.Project2Application  : Started Project2Application in 10.524 seconds (JVM running for 12.186)
+2022-12-24 19:44:46.831  INFO 15700 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-24 19:44:46.835  INFO 15700 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-12-24 19:44:46.845  INFO 15700 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-12-24 19:44:55.441  INFO 9376 --- [restartedMain] jmaster.io.project2.Project2Application  : Starting Project2Application using Java 17.0.5 on CuongVu with PID 9376 (C:\Users\cuong\OneDrive\Desktop\KhoaHocSpring_JMaster\spring\project2\target\classes started by CuongVu in C:\Users\cuong\OneDrive\Desktop\KhoaHocSpring_JMaster\spring\project2)
+2022-12-24 19:44:55.444  INFO 9376 --- [restartedMain] jmaster.io.project2.Project2Application  : No active profile set, falling back to 1 default profile: "default"
+2022-12-24 19:44:55.537  INFO 9376 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-12-24 19:44:55.538  INFO 9376 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-12-24 19:44:56.707  INFO 9376 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-24 19:44:56.809  INFO 9376 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 86 ms. Found 6 JPA repository interfaces.
+2022-12-24 19:44:57.626  INFO 9376 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-12-24 19:44:57.645  INFO 9376 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-24 19:44:57.646  INFO 9376 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2022-12-24 19:44:57.786  INFO 9376 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-24 19:44:57.787  INFO 9376 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2247 ms
+2022-12-24 19:44:57.963  INFO 9376 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-24 19:44:58.547  INFO 9376 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-24 19:44:58.617  INFO 9376 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-24 19:44:58.851  INFO 9376 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2022-12-24 19:44:59.392  INFO 9376 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-24 19:44:59.678  INFO 9376 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-12-24 19:45:01.057  INFO 9376 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-24 19:45:01.079  INFO 9376 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-24 19:45:02.475  WARN 9376 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-24 19:45:03.793  INFO 9376 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-12-24 19:45:03.857  INFO 9376 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-24 19:45:03.879  INFO 9376 --- [restartedMain] jmaster.io.project2.Project2Application  : Started Project2Application in 9.173 seconds (JVM running for 10.64)
+2022-12-24 19:45:05.003  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:45:10.002  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:45:15.014  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:45:20.009  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:45:25.013  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:45:30.002  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:45:35.006  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:45:40.005  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:45:45.011  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:45:50.004  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:45:55.009  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:46:00.012  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:46:05.003  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:46:10.003  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:46:15.004  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:46:20.012  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:46:25.001  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:46:30.003  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:46:35.003  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:46:40.002  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:46:45.009  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:46:50.016  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:46:55.015  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:47:00.004  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:47:05.004  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:47:10.006  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:47:15.002  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:47:20.001  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:47:25.016  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:47:30.005  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:47:35.008  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:47:40.004  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:47:45.013  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:47:50.006  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:47:55.015  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:48:00.006  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:48:05.010  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:48:10.012  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:48:15.007  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:48:20.014  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:48:25.009  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:48:30.008  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:48:35.000  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:48:40.002  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:48:45.004  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:48:50.011  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:48:55.003  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:49:00.005  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:49:05.007  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:49:10.016  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:49:15.010  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:49:20.011  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:49:25.005  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:49:30.007  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:49:35.007  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:49:40.002  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:49:45.013  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:49:50.013  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:49:55.004  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:50:00.007  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:50:05.015  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:50:10.003  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:50:15.009  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:50:20.008  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:50:25.009  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:50:30.013  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:50:35.001  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:50:40.008  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:50:45.014  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:50:50.014  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:50:55.008  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:51:00.001  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:51:05.012  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:51:10.014  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:51:15.012  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:51:20.008  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:51:25.007  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:51:30.010  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:51:35.011  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:51:40.004  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:51:45.006  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:51:50.011  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:51:55.002  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:52:00.003  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:52:05.002  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:52:10.012  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:52:15.002  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:52:20.015  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:52:25.006  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:52:30.009  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:52:35.010  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:52:40.011  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:52:45.003  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:52:50.008  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:52:55.013  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:53:00.012  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:53:05.009  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:53:10.015  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:53:15.009  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:53:20.003  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:53:25.009  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:53:30.006  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:53:35.004  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:53:40.014  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:53:45.004  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:53:50.001  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:53:55.008  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:54:00.011  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:54:05.011  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:54:10.002  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:54:15.004  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:54:20.004  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:54:25.009  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:54:30.008  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:54:35.005  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:54:40.005  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:54:45.010  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:54:50.002  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:54:55.007  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:55:00.011  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:55:05.004  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:55:10.000  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:55:15.038  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:55:20.012  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:55:25.009  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:55:30.002  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:55:35.012  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:55:40.004  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:55:45.005  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:55:50.012  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:55:55.015  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:56:00.008  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:56:05.005  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:56:10.004  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:56:15.014  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:56:20.009  INFO 9376 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 19:56:22.949  INFO 9376 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-24 19:56:22.953  INFO 9376 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-12-24 19:56:22.966  INFO 9376 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-12-24 20:00:46.336  INFO 1840 --- [restartedMain] jmaster.io.project2.Project2Application  : Starting Project2Application using Java 17.0.5 on CuongVu with PID 1840 (C:\Users\cuong\OneDrive\Desktop\KhoaHocSpring_JMaster\spring\project2\target\classes started by CuongVu in C:\Users\cuong\OneDrive\Desktop\KhoaHocSpring_JMaster\spring\project2)
+2022-12-24 20:00:46.338  INFO 1840 --- [restartedMain] jmaster.io.project2.Project2Application  : No active profile set, falling back to 1 default profile: "default"
+2022-12-24 20:00:46.422  INFO 1840 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-12-24 20:00:46.424  INFO 1840 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-12-24 20:00:47.606  INFO 1840 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-24 20:00:47.718  INFO 1840 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 96 ms. Found 6 JPA repository interfaces.
+2022-12-24 20:00:48.582  INFO 1840 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-12-24 20:00:48.592  INFO 1840 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-24 20:00:48.592  INFO 1840 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2022-12-24 20:00:48.723  INFO 1840 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-24 20:00:48.724  INFO 1840 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2298 ms
+2022-12-24 20:00:48.878  INFO 1840 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-24 20:00:49.305  INFO 1840 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-24 20:00:49.401  INFO 1840 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-24 20:00:49.557  INFO 1840 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2022-12-24 20:00:49.929  INFO 1840 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-24 20:00:50.128  INFO 1840 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-12-24 20:00:51.429  INFO 1840 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-24 20:00:51.443  INFO 1840 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-24 20:00:52.779  WARN 1840 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-24 20:00:54.399  INFO 1840 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-12-24 20:00:54.460  INFO 1840 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-24 20:00:54.480  INFO 1840 --- [restartedMain] jmaster.io.project2.Project2Application  : Started Project2Application in 8.729 seconds (JVM running for 9.909)
+2022-12-24 20:00:55.001  INFO 1840 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 20:01:00.007  INFO 1840 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 20:01:05.001  INFO 1840 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 20:01:10.001  INFO 1840 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 20:01:12.424  INFO 1840 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-24 20:01:12.430  INFO 1840 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-12-24 20:01:12.444  INFO 1840 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-12-24 20:01:20.299  INFO 19200 --- [restartedMain] jmaster.io.project2.Project2Application  : Starting Project2Application using Java 17.0.5 on CuongVu with PID 19200 (C:\Users\cuong\OneDrive\Desktop\KhoaHocSpring_JMaster\spring\project2\target\classes started by CuongVu in C:\Users\cuong\OneDrive\Desktop\KhoaHocSpring_JMaster\spring\project2)
+2022-12-24 20:01:20.301  INFO 19200 --- [restartedMain] jmaster.io.project2.Project2Application  : No active profile set, falling back to 1 default profile: "default"
+2022-12-24 20:01:20.396  INFO 19200 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-12-24 20:01:20.396  INFO 19200 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-12-24 20:01:21.443  INFO 19200 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-24 20:01:21.531  INFO 19200 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 75 ms. Found 6 JPA repository interfaces.
+2022-12-24 20:01:22.282  INFO 19200 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-12-24 20:01:22.291  INFO 19200 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-24 20:01:22.292  INFO 19200 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2022-12-24 20:01:22.418  INFO 19200 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-24 20:01:22.419  INFO 19200 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2020 ms
+2022-12-24 20:01:22.575  INFO 19200 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-24 20:01:22.940  INFO 19200 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-24 20:01:22.997  INFO 19200 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-24 20:01:23.070  INFO 19200 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2022-12-24 20:01:23.351  INFO 19200 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-24 20:01:23.494  INFO 19200 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-12-24 20:01:24.769  INFO 19200 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-24 20:01:24.781  INFO 19200 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-24 20:01:26.248  WARN 19200 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-24 20:01:27.442  INFO 19200 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-12-24 20:01:27.499  INFO 19200 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-24 20:01:27.514  INFO 19200 --- [restartedMain] jmaster.io.project2.Project2Application  : Started Project2Application in 7.889 seconds (JVM running for 9.047)
+2022-12-24 20:01:30.007  INFO 19200 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 20:01:30.082  INFO 19200 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong01
+2022-12-24 20:01:35.006  INFO 19200 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 20:01:35.010  INFO 19200 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong01
+2022-12-24 20:01:40.015  INFO 19200 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 20:01:40.017  INFO 19200 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong01
+2022-12-24 20:01:45.007  INFO 19200 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 20:01:45.011  INFO 19200 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong01
+2022-12-24 20:01:50.006  INFO 19200 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 20:01:50.011  INFO 19200 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong01
+2022-12-24 20:01:55.010  INFO 19200 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 20:01:55.014  INFO 19200 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong01
+2022-12-24 20:02:00.014  INFO 19200 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 20:02:00.018  INFO 19200 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong01
+2022-12-24 20:02:05.002  INFO 19200 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 20:02:05.006  INFO 19200 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong01
+2022-12-24 20:02:10.014  INFO 19200 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 20:02:10.017  INFO 19200 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong01
+2022-12-24 20:02:15.002  INFO 19200 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 20:02:15.006  INFO 19200 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong01
+2022-12-24 20:02:20.004  INFO 19200 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 20:02:20.007  INFO 19200 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong01
+2022-12-24 20:02:25.015  INFO 19200 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 20:02:25.019  INFO 19200 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong01
+2022-12-24 20:02:30.004  INFO 19200 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 20:02:30.008  INFO 19200 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong01
+2022-12-24 20:02:35.012  INFO 19200 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 20:02:35.016  INFO 19200 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong01
+2022-12-24 20:02:40.012  INFO 19200 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 20:02:40.015  INFO 19200 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong01
+2022-12-24 20:02:45.005  INFO 19200 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 20:02:45.010  INFO 19200 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong01
+2022-12-24 20:02:50.015  INFO 19200 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 20:02:50.020  INFO 19200 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong01
+2022-12-24 20:02:55.006  INFO 19200 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 20:02:55.010  INFO 19200 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong01
+2022-12-24 20:03:00.005  INFO 19200 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 20:03:00.009  INFO 19200 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong01
+2022-12-24 20:03:05.009  INFO 19200 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 20:03:05.012  INFO 19200 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong01
+2022-12-24 20:03:10.015  INFO 19200 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 20:03:10.019  INFO 19200 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong01
+2022-12-24 20:03:15.004  INFO 19200 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 20:03:15.008  INFO 19200 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong01
+2022-12-24 20:03:20.007  INFO 19200 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 20:03:20.010  INFO 19200 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong01
+2022-12-24 20:03:25.007  INFO 19200 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 20:03:25.011  INFO 19200 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong01
+2022-12-24 20:03:30.012  INFO 19200 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 20:03:30.015  INFO 19200 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong01
+2022-12-24 20:03:35.005  INFO 19200 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 20:03:35.010  INFO 19200 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong01
+2022-12-24 20:03:40.015  INFO 19200 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 20:03:40.018  INFO 19200 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong01
+2022-12-24 20:03:45.008  INFO 19200 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 20:03:45.012  INFO 19200 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong01
+2022-12-24 20:03:50.012  INFO 19200 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 20:03:50.018  INFO 19200 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong01
+2022-12-24 20:03:55.005  INFO 19200 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 20:03:55.010  INFO 19200 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong01
+2022-12-24 20:04:00.012  INFO 19200 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 20:04:00.017  INFO 19200 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong01
+2022-12-24 20:04:05.014  INFO 19200 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 20:04:05.018  INFO 19200 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong01
+2022-12-24 20:04:10.013  INFO 19200 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 20:04:10.020  INFO 19200 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong01
+2022-12-24 20:04:15.005  INFO 19200 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 20:04:15.008  INFO 19200 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong01
+2022-12-24 20:04:20.006  INFO 19200 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 20:04:20.009  INFO 19200 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong01
+2022-12-24 20:04:25.007  INFO 19200 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 20:04:25.015  INFO 19200 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong01
+2022-12-24 20:04:30.001  INFO 19200 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 20:04:30.004  INFO 19200 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong01
+2022-12-24 20:04:35.001  INFO 19200 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 20:04:35.007  INFO 19200 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong01
+2022-12-24 20:04:35.007  INFO 19200 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong02
+2022-12-24 20:04:40.008  INFO 19200 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 20:04:40.012  INFO 19200 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong01
+2022-12-24 20:04:40.012  INFO 19200 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong02
+2022-12-24 20:04:41.430  INFO 19200 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-24 20:04:41.434  INFO 19200 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-12-24 20:04:41.444  INFO 19200 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-12-24 20:04:47.656  INFO 2492 --- [restartedMain] jmaster.io.project2.Project2Application  : Starting Project2Application using Java 17.0.5 on CuongVu with PID 2492 (C:\Users\cuong\OneDrive\Desktop\KhoaHocSpring_JMaster\spring\project2\target\classes started by CuongVu in C:\Users\cuong\OneDrive\Desktop\KhoaHocSpring_JMaster\spring\project2)
+2022-12-24 20:04:47.659  INFO 2492 --- [restartedMain] jmaster.io.project2.Project2Application  : No active profile set, falling back to 1 default profile: "default"
+2022-12-24 20:04:47.746  INFO 2492 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-12-24 20:04:47.746  INFO 2492 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-12-24 20:04:49.045  INFO 2492 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-24 20:04:49.160  INFO 2492 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 101 ms. Found 6 JPA repository interfaces.
+2022-12-24 20:04:50.049  INFO 2492 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-12-24 20:04:50.059  INFO 2492 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-24 20:04:50.060  INFO 2492 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2022-12-24 20:04:50.207  INFO 2492 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-24 20:04:50.207  INFO 2492 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2460 ms
+2022-12-24 20:04:50.389  INFO 2492 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-24 20:04:50.806  INFO 2492 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-24 20:04:50.881  INFO 2492 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-24 20:04:50.960  INFO 2492 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2022-12-24 20:04:51.210  INFO 2492 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-24 20:04:51.352  INFO 2492 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-12-24 20:04:52.370  INFO 2492 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-24 20:04:52.380  INFO 2492 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-24 20:04:53.536  WARN 2492 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-24 20:04:54.721  INFO 2492 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-12-24 20:04:54.775  INFO 2492 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-24 20:04:54.796  INFO 2492 --- [restartedMain] jmaster.io.project2.Project2Application  : Started Project2Application in 7.722 seconds (JVM running for 8.946)
+2022-12-24 20:04:55.011  INFO 2492 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 20:04:55.088  INFO 2492 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong01
+2022-12-24 20:04:55.088  INFO 2492 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong02
+2022-12-24 20:05:00.002  INFO 2492 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 20:05:00.008  INFO 2492 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong01
+2022-12-24 20:05:00.009  INFO 2492 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong02
+2022-12-24 20:05:05.004  INFO 2492 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 20:05:05.008  INFO 2492 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong01
+2022-12-24 20:05:05.009  INFO 2492 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong02
+2022-12-24 20:05:10.014  INFO 2492 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 20:05:10.021  INFO 2492 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong01
+2022-12-24 20:05:10.021  INFO 2492 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong02
+2022-12-24 20:05:15.008  INFO 2492 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 20:05:15.011  INFO 2492 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong01
+2022-12-24 20:05:15.012  INFO 2492 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong02
+2022-12-24 20:05:17.958  INFO 2492 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-24 20:05:17.961  INFO 2492 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-12-24 20:05:17.974  INFO 2492 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-12-24 20:32:06.921  INFO 16768 --- [restartedMain] jmaster.io.project2.Project2Application  : Starting Project2Application using Java 17.0.5 on CuongVu with PID 16768 (C:\Users\cuong\OneDrive\Desktop\KhoaHocSpring_JMaster\spring\project2\target\classes started by CuongVu in C:\Users\cuong\OneDrive\Desktop\KhoaHocSpring_JMaster\spring\project2)
+2022-12-24 20:32:06.924  INFO 16768 --- [restartedMain] jmaster.io.project2.Project2Application  : No active profile set, falling back to 1 default profile: "default"
+2022-12-24 20:32:07.068  INFO 16768 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-12-24 20:32:07.069  INFO 16768 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-12-24 20:32:08.398  INFO 16768 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-24 20:32:08.486  INFO 16768 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 79 ms. Found 6 JPA repository interfaces.
+2022-12-24 20:32:09.286  INFO 16768 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-12-24 20:32:09.298  INFO 16768 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-24 20:32:09.299  INFO 16768 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2022-12-24 20:32:09.429  INFO 16768 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-24 20:32:09.430  INFO 16768 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2360 ms
+2022-12-24 20:32:09.580  INFO 16768 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-24 20:32:09.961  INFO 16768 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-24 20:32:10.018  INFO 16768 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-24 20:32:10.074  INFO 16768 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2022-12-24 20:32:10.396  INFO 16768 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-24 20:32:10.563  INFO 16768 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-12-24 20:32:11.613  INFO 16768 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-24 20:32:11.627  INFO 16768 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-24 20:32:12.989  WARN 16768 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-24 20:32:14.196  INFO 16768 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-12-24 20:32:14.249  INFO 16768 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-24 20:32:14.269  INFO 16768 --- [restartedMain] jmaster.io.project2.Project2Application  : Started Project2Application in 8.023 seconds (JVM running for 9.925)
+2022-12-24 20:33:00.003  INFO 16768 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 20:33:00.083  INFO 16768 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong01
+2022-12-24 20:33:00.083  INFO 16768 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong02
+2022-12-24 20:34:00.001  INFO 16768 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 20:34:00.007  INFO 16768 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong01
+2022-12-24 20:34:00.008  INFO 16768 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong02
+2022-12-24 20:34:08.103  INFO 16768 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-24 20:34:08.107  INFO 16768 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-12-24 20:34:08.122  INFO 16768 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-12-24 20:34:17.290  INFO 10816 --- [restartedMain] jmaster.io.project2.Project2Application  : Starting Project2Application using Java 17.0.5 on CuongVu with PID 10816 (C:\Users\cuong\OneDrive\Desktop\KhoaHocSpring_JMaster\spring\project2\target\classes started by CuongVu in C:\Users\cuong\OneDrive\Desktop\KhoaHocSpring_JMaster\spring\project2)
+2022-12-24 20:34:17.292  INFO 10816 --- [restartedMain] jmaster.io.project2.Project2Application  : No active profile set, falling back to 1 default profile: "default"
+2022-12-24 20:34:17.382  INFO 10816 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-12-24 20:34:17.382  INFO 10816 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-12-24 20:34:18.372  INFO 10816 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-24 20:34:18.453  INFO 10816 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 70 ms. Found 6 JPA repository interfaces.
+2022-12-24 20:34:19.241  INFO 10816 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-12-24 20:34:19.252  INFO 10816 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-24 20:34:19.252  INFO 10816 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2022-12-24 20:34:19.392  INFO 10816 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-24 20:34:19.392  INFO 10816 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2009 ms
+2022-12-24 20:34:19.544  INFO 10816 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-24 20:34:19.931  INFO 10816 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-24 20:34:19.986  INFO 10816 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-24 20:34:20.044  INFO 10816 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2022-12-24 20:34:20.319  INFO 10816 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-24 20:34:20.448  INFO 10816 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-12-24 20:34:21.410  INFO 10816 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-24 20:34:21.423  INFO 10816 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-24 20:34:22.429  WARN 10816 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-24 20:34:23.431  INFO 10816 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-12-24 20:34:23.482  INFO 10816 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-24 20:34:23.503  INFO 10816 --- [restartedMain] jmaster.io.project2.Project2Application  : Started Project2Application in 6.771 seconds (JVM running for 7.815)
+2022-12-24 20:35:00.011  INFO 10816 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 20:35:00.099  INFO 10816 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong01
+2022-12-24 20:35:00.099  INFO 10816 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong02
+2022-12-24 20:35:28.606  INFO 10816 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-24 20:35:28.609  INFO 10816 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-12-24 20:35:28.618  INFO 10816 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-12-24 20:48:40.434  INFO 5640 --- [restartedMain] jmaster.io.project2.Project2Application  : Starting Project2Application using Java 17.0.5 on CuongVu with PID 5640 (C:\Users\cuong\OneDrive\Desktop\KhoaHocSpring_JMaster\spring\project2\target\classes started by CuongVu in C:\Users\cuong\OneDrive\Desktop\KhoaHocSpring_JMaster\spring\project2)
+2022-12-24 20:48:40.437  INFO 5640 --- [restartedMain] jmaster.io.project2.Project2Application  : No active profile set, falling back to 1 default profile: "default"
+2022-12-24 20:48:40.534  INFO 5640 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-12-24 20:48:40.535  INFO 5640 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-12-24 20:48:42.134  INFO 5640 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-24 20:48:42.232  INFO 5640 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 87 ms. Found 6 JPA repository interfaces.
+2022-12-24 20:48:43.087  INFO 5640 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-12-24 20:48:43.099  INFO 5640 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-24 20:48:43.099  INFO 5640 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2022-12-24 20:48:43.231  INFO 5640 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-24 20:48:43.231  INFO 5640 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2694 ms
+2022-12-24 20:48:43.391  INFO 5640 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-24 20:48:43.779  INFO 5640 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-24 20:48:43.838  INFO 5640 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-24 20:48:43.905  INFO 5640 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2022-12-24 20:48:44.167  INFO 5640 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-24 20:48:44.305  INFO 5640 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-12-24 20:48:46.444  INFO 5640 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-24 20:48:46.456  INFO 5640 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-24 20:48:47.809  WARN 5640 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-24 20:48:48.993  INFO 5640 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-12-24 20:48:49.044  INFO 5640 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-24 20:48:49.064  INFO 5640 --- [restartedMain] jmaster.io.project2.Project2Application  : Started Project2Application in 9.291 seconds (JVM running for 10.36)
+2022-12-24 20:49:00.012  INFO 5640 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 20:49:00.086  INFO 5640 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong01
+2022-12-24 20:49:00.087  INFO 5640 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong02
+2022-12-24 20:49:26.200  INFO 5640 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-24 20:49:26.204  INFO 5640 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-12-24 20:49:26.214  INFO 5640 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-12-24 20:49:43.610  INFO 13748 --- [restartedMain] jmaster.io.project2.Project2Application  : Starting Project2Application using Java 17.0.5 on CuongVu with PID 13748 (C:\Users\cuong\OneDrive\Desktop\KhoaHocSpring_JMaster\spring\project2\target\classes started by CuongVu in C:\Users\cuong\OneDrive\Desktop\KhoaHocSpring_JMaster\spring\project2)
+2022-12-24 20:49:43.612  INFO 13748 --- [restartedMain] jmaster.io.project2.Project2Application  : No active profile set, falling back to 1 default profile: "default"
+2022-12-24 20:49:43.717  INFO 13748 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-12-24 20:49:43.718  INFO 13748 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-12-24 20:49:44.985  INFO 13748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-24 20:49:45.092  INFO 13748 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 92 ms. Found 6 JPA repository interfaces.
+2022-12-24 20:49:45.919  INFO 13748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-12-24 20:49:45.929  INFO 13748 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-24 20:49:45.930  INFO 13748 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2022-12-24 20:49:46.062  INFO 13748 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-24 20:49:46.062  INFO 13748 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2342 ms
+2022-12-24 20:49:46.220  INFO 13748 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-24 20:49:46.614  INFO 13748 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-24 20:49:46.669  INFO 13748 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-24 20:49:46.734  INFO 13748 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2022-12-24 20:49:47.008  INFO 13748 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-24 20:49:47.151  INFO 13748 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-12-24 20:49:48.178  INFO 13748 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-24 20:49:48.194  INFO 13748 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-24 20:49:49.311  WARN 13748 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-24 20:49:50.362  INFO 13748 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-12-24 20:49:50.416  INFO 13748 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-24 20:49:50.432  INFO 13748 --- [restartedMain] jmaster.io.project2.Project2Application  : Started Project2Application in 7.531 seconds (JVM running for 8.723)
+2022-12-24 20:50:00.014  INFO 13748 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 20:50:00.082  INFO 13748 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong01
+2022-12-24 20:50:00.082  INFO 13748 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong02
+2022-12-24 20:50:22.008  INFO 13748 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-24 20:50:22.011  INFO 13748 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-12-24 20:50:22.021  INFO 13748 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-12-24 20:51:54.292  INFO 6404 --- [restartedMain] jmaster.io.project2.Project2Application  : Starting Project2Application using Java 17.0.5 on CuongVu with PID 6404 (C:\Users\cuong\OneDrive\Desktop\KhoaHocSpring_JMaster\spring\project2\target\classes started by CuongVu in C:\Users\cuong\OneDrive\Desktop\KhoaHocSpring_JMaster\spring\project2)
+2022-12-24 20:51:54.296  INFO 6404 --- [restartedMain] jmaster.io.project2.Project2Application  : No active profile set, falling back to 1 default profile: "default"
+2022-12-24 20:51:54.420  INFO 6404 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-12-24 20:51:54.421  INFO 6404 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-12-24 20:51:56.020  INFO 6404 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-24 20:51:56.111  INFO 6404 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 79 ms. Found 6 JPA repository interfaces.
+2022-12-24 20:51:56.899  INFO 6404 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-12-24 20:51:56.917  INFO 6404 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-24 20:51:56.917  INFO 6404 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2022-12-24 20:51:57.027  INFO 6404 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-24 20:51:57.027  INFO 6404 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2605 ms
+2022-12-24 20:51:57.190  INFO 6404 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-24 20:51:57.595  INFO 6404 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-24 20:51:57.652  INFO 6404 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-24 20:51:57.720  INFO 6404 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2022-12-24 20:51:57.984  INFO 6404 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-24 20:51:58.115  INFO 6404 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-12-24 20:51:59.475  INFO 6404 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-24 20:51:59.486  INFO 6404 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-24 20:52:00.590  WARN 6404 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-24 20:52:01.603  INFO 6404 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-12-24 20:52:01.657  INFO 6404 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-24 20:52:01.675  INFO 6404 --- [restartedMain] jmaster.io.project2.Project2Application  : Started Project2Application in 8.008 seconds (JVM running for 9.081)
+2022-12-24 20:52:41.544  INFO 6404 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-24 20:52:41.548  INFO 6404 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-12-24 20:52:41.561  INFO 6404 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-12-24 20:53:02.248  INFO 14468 --- [restartedMain] jmaster.io.project2.Project2Application  : Starting Project2Application using Java 17.0.5 on CuongVu with PID 14468 (C:\Users\cuong\OneDrive\Desktop\KhoaHocSpring_JMaster\spring\project2\target\classes started by CuongVu in C:\Users\cuong\OneDrive\Desktop\KhoaHocSpring_JMaster\spring\project2)
+2022-12-24 20:53:02.253  INFO 14468 --- [restartedMain] jmaster.io.project2.Project2Application  : No active profile set, falling back to 1 default profile: "default"
+2022-12-24 20:53:02.404  INFO 14468 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-12-24 20:53:02.405  INFO 14468 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-12-24 20:53:04.337  INFO 14468 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-24 20:53:04.435  INFO 14468 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 88 ms. Found 6 JPA repository interfaces.
+2022-12-24 20:53:05.383  INFO 14468 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-12-24 20:53:05.402  INFO 14468 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-24 20:53:05.402  INFO 14468 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2022-12-24 20:53:05.523  INFO 14468 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-24 20:53:05.524  INFO 14468 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3117 ms
+2022-12-24 20:53:05.763  INFO 14468 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-24 20:53:06.256  INFO 14468 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-24 20:53:06.333  INFO 14468 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-24 20:53:06.461  INFO 14468 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2022-12-24 20:53:06.801  INFO 14468 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-24 20:53:06.969  INFO 14468 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-12-24 20:53:08.255  INFO 14468 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-24 20:53:08.267  INFO 14468 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-24 20:53:09.678  WARN 14468 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-24 20:53:10.883  INFO 14468 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-12-24 20:53:10.933  INFO 14468 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-24 20:53:10.957  INFO 14468 --- [restartedMain] jmaster.io.project2.Project2Application  : Started Project2Application in 10.094 seconds (JVM running for 11.802)
+2022-12-24 20:54:00.012  INFO 14468 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 20:54:00.106  INFO 14468 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong01
+2022-12-24 20:54:00.107  INFO 14468 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong02
+2022-12-24 20:55:00.004  INFO 14468 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 20:55:00.011  INFO 14468 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong01
+2022-12-24 20:55:00.011  INFO 14468 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong02
+2022-12-24 20:56:00.012  INFO 14468 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 20:56:00.020  INFO 14468 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong01
+2022-12-24 20:56:00.020  INFO 14468 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong02
+2022-12-24 20:56:16.319  INFO 14468 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-24 20:56:16.323  INFO 14468 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-12-24 20:56:16.332  INFO 14468 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-12-24 21:05:46.705  INFO 15956 --- [restartedMain] jmaster.io.project2.Project2Application  : Starting Project2Application using Java 17.0.5 on CuongVu with PID 15956 (C:\Users\cuong\OneDrive\Desktop\KhoaHocSpring_JMaster\spring\project2\target\classes started by CuongVu in C:\Users\cuong\OneDrive\Desktop\KhoaHocSpring_JMaster\spring\project2)
+2022-12-24 21:05:46.708  INFO 15956 --- [restartedMain] jmaster.io.project2.Project2Application  : No active profile set, falling back to 1 default profile: "default"
+2022-12-24 21:05:46.867  INFO 15956 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-12-24 21:05:46.868  INFO 15956 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-12-24 21:05:48.409  INFO 15956 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-24 21:05:48.510  INFO 15956 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 87 ms. Found 6 JPA repository interfaces.
+2022-12-24 21:05:49.386  INFO 15956 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-12-24 21:05:49.404  INFO 15956 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-24 21:05:49.405  INFO 15956 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2022-12-24 21:05:49.531  INFO 15956 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-24 21:05:49.532  INFO 15956 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2663 ms
+2022-12-24 21:05:49.692  INFO 15956 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-24 21:05:50.131  INFO 15956 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-24 21:05:50.201  INFO 15956 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-24 21:05:50.295  INFO 15956 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2022-12-24 21:05:50.941  INFO 15956 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-24 21:05:51.231  INFO 15956 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-12-24 21:05:52.510  INFO 15956 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-24 21:05:52.530  INFO 15956 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-24 21:05:54.097  WARN 15956 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-24 21:05:55.583  INFO 15956 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-12-24 21:05:55.629  INFO 15956 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-24 21:05:55.650  INFO 15956 --- [restartedMain] jmaster.io.project2.Project2Application  : Started Project2Application in 10.017 seconds (JVM running for 11.621)
+2022-12-24 21:06:00.015  INFO 15956 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 21:06:00.083  INFO 15956 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong01
+2022-12-24 21:06:00.087  INFO 15956 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong02
+2022-12-24 21:06:00.278 ERROR 15956 --- [task-2] org.thymeleaf.TemplateEngine             : [THYMELEAF][task-2] Exception processing template "email/brithdate.html": Error resolving template [email/brithdate.html], template might not exist or might not be accessible by any of the configured Template Resolvers
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [email/brithdate.html], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1059) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1048) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at jmaster.io.project2.service.EmailService.sendBirthdate(EmailService.java:35) ~[classes/:na]
+	at jmaster.io.project2.service.EmailService$$FastClassBySpringCGLIB$$d9c63061.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115) ~[spring-aop-5.3.24.jar:5.3.24]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2022-12-24 21:06:00.279 ERROR 15956 --- [task-1] org.thymeleaf.TemplateEngine             : [THYMELEAF][task-1] Exception processing template "email/brithdate.html": Error resolving template [email/brithdate.html], template might not exist or might not be accessible by any of the configured Template Resolvers
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [email/brithdate.html], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1059) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1048) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at jmaster.io.project2.service.EmailService.sendBirthdate(EmailService.java:35) ~[classes/:na]
+	at jmaster.io.project2.service.EmailService$$FastClassBySpringCGLIB$$d9c63061.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115) ~[spring-aop-5.3.24.jar:5.3.24]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2022-12-24 21:06:00.283 ERROR 15956 --- [task-2] .a.i.SimpleAsyncUncaughtExceptionHandler : Unexpected exception occurred invoking async method: public void jmaster.io.project2.service.EmailService.sendBirthdate(java.lang.String,java.lang.String)
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [email/brithdate.html], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1059) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1048) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at jmaster.io.project2.service.EmailService.sendBirthdate(EmailService.java:35) ~[classes/:na]
+	at jmaster.io.project2.service.EmailService$$FastClassBySpringCGLIB$$d9c63061.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115) ~[spring-aop-5.3.24.jar:5.3.24]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2022-12-24 21:06:00.283 ERROR 15956 --- [task-1] .a.i.SimpleAsyncUncaughtExceptionHandler : Unexpected exception occurred invoking async method: public void jmaster.io.project2.service.EmailService.sendBirthdate(java.lang.String,java.lang.String)
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [email/brithdate.html], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1059) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1048) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at jmaster.io.project2.service.EmailService.sendBirthdate(EmailService.java:35) ~[classes/:na]
+	at jmaster.io.project2.service.EmailService$$FastClassBySpringCGLIB$$d9c63061.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115) ~[spring-aop-5.3.24.jar:5.3.24]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2022-12-24 21:06:50.525  INFO 15956 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-24 21:06:50.529  INFO 15956 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-12-24 21:06:50.538  INFO 15956 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-12-24 21:07:04.429  INFO 19080 --- [restartedMain] jmaster.io.project2.Project2Application  : Starting Project2Application using Java 17.0.5 on CuongVu with PID 19080 (C:\Users\cuong\OneDrive\Desktop\KhoaHocSpring_JMaster\spring\project2\target\classes started by CuongVu in C:\Users\cuong\OneDrive\Desktop\KhoaHocSpring_JMaster\spring\project2)
+2022-12-24 21:07:04.431  INFO 19080 --- [restartedMain] jmaster.io.project2.Project2Application  : No active profile set, falling back to 1 default profile: "default"
+2022-12-24 21:07:04.518  INFO 19080 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-12-24 21:07:04.519  INFO 19080 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-12-24 21:07:05.868  INFO 19080 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-24 21:07:05.988  INFO 19080 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 106 ms. Found 6 JPA repository interfaces.
+2022-12-24 21:07:06.915  INFO 19080 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-12-24 21:07:06.929  INFO 19080 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-24 21:07:06.929  INFO 19080 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2022-12-24 21:07:07.065  INFO 19080 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-24 21:07:07.066  INFO 19080 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2546 ms
+2022-12-24 21:07:07.241  INFO 19080 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-24 21:07:07.791  INFO 19080 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-24 21:07:07.853  INFO 19080 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-24 21:07:07.932  INFO 19080 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2022-12-24 21:07:08.390  INFO 19080 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-24 21:07:08.654  INFO 19080 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-12-24 21:07:09.806  INFO 19080 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-24 21:07:09.819  INFO 19080 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-24 21:07:11.007  WARN 19080 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-24 21:07:12.056  INFO 19080 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-12-24 21:07:12.111  INFO 19080 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-24 21:07:12.130  INFO 19080 --- [restartedMain] jmaster.io.project2.Project2Application  : Started Project2Application in 8.335 seconds (JVM running for 9.84)
+2022-12-24 21:07:19.157  INFO 19080 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-24 21:07:19.161  INFO 19080 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-12-24 21:07:19.170  INFO 19080 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-12-24 23:14:45.610  INFO 7352 --- [restartedMain] jmaster.io.project2.Project2Application  : Starting Project2Application using Java 17.0.5 on CuongVu with PID 7352 (C:\Users\cuong\OneDrive\Desktop\KhoaHocSpring_JMaster\spring\project2\target\classes started by CuongVu in C:\Users\cuong\OneDrive\Desktop\KhoaHocSpring_JMaster\spring\project2)
+2022-12-24 23:14:45.613  INFO 7352 --- [restartedMain] jmaster.io.project2.Project2Application  : No active profile set, falling back to 1 default profile: "default"
+2022-12-24 23:14:45.725  INFO 7352 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-12-24 23:14:45.725  INFO 7352 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-12-24 23:14:47.007  INFO 7352 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-24 23:14:47.112  INFO 7352 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 90 ms. Found 6 JPA repository interfaces.
+2022-12-24 23:14:48.147  INFO 7352 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-12-24 23:14:48.164  INFO 7352 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-24 23:14:48.165  INFO 7352 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.69]
+2022-12-24 23:14:48.305  INFO 7352 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-24 23:14:48.306  INFO 7352 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2580 ms
+2022-12-24 23:14:48.553  INFO 7352 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-24 23:14:49.177  INFO 7352 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-24 23:14:49.245  INFO 7352 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-24 23:14:49.372  INFO 7352 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.14.Final
+2022-12-24 23:14:49.685  INFO 7352 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-24 23:14:49.857  INFO 7352 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-12-24 23:14:51.171  INFO 7352 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-24 23:14:51.183  INFO 7352 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-24 23:14:52.404  WARN 7352 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-24 23:14:53.531  INFO 7352 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-12-24 23:14:53.591  INFO 7352 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-24 23:14:53.614  INFO 7352 --- [restartedMain] jmaster.io.project2.Project2Application  : Started Project2Application in 8.666 seconds (JVM running for 10.343)
+2022-12-24 23:15:00.009  INFO 7352 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 23:15:00.074  INFO 7352 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong01
+2022-12-24 23:15:00.075  INFO 7352 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong02
+2022-12-24 23:15:00.297 ERROR 7352 --- [task-2] org.thymeleaf.TemplateEngine             : [THYMELEAF][task-2] Exception processing template "email/brithdate.html": Error resolving template [email/brithdate.html], template might not exist or might not be accessible by any of the configured Template Resolvers
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [email/brithdate.html], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1059) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1048) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at jmaster.io.project2.service.EmailService.sendBirthdate(EmailService.java:35) ~[classes/:na]
+	at jmaster.io.project2.service.EmailService$$FastClassBySpringCGLIB$$d9c63061.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115) ~[spring-aop-5.3.24.jar:5.3.24]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2022-12-24 23:15:00.297 ERROR 7352 --- [task-1] org.thymeleaf.TemplateEngine             : [THYMELEAF][task-1] Exception processing template "email/brithdate.html": Error resolving template [email/brithdate.html], template might not exist or might not be accessible by any of the configured Template Resolvers
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [email/brithdate.html], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1059) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1048) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at jmaster.io.project2.service.EmailService.sendBirthdate(EmailService.java:35) ~[classes/:na]
+	at jmaster.io.project2.service.EmailService$$FastClassBySpringCGLIB$$d9c63061.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115) ~[spring-aop-5.3.24.jar:5.3.24]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2022-12-24 23:15:00.301 ERROR 7352 --- [task-1] .a.i.SimpleAsyncUncaughtExceptionHandler : Unexpected exception occurred invoking async method: public void jmaster.io.project2.service.EmailService.sendBirthdate(java.lang.String,java.lang.String)
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [email/brithdate.html], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1059) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1048) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at jmaster.io.project2.service.EmailService.sendBirthdate(EmailService.java:35) ~[classes/:na]
+	at jmaster.io.project2.service.EmailService$$FastClassBySpringCGLIB$$d9c63061.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115) ~[spring-aop-5.3.24.jar:5.3.24]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2022-12-24 23:15:00.301 ERROR 7352 --- [task-2] .a.i.SimpleAsyncUncaughtExceptionHandler : Unexpected exception occurred invoking async method: public void jmaster.io.project2.service.EmailService.sendBirthdate(java.lang.String,java.lang.String)
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [email/brithdate.html], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1059) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1048) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at jmaster.io.project2.service.EmailService.sendBirthdate(EmailService.java:35) ~[classes/:na]
+	at jmaster.io.project2.service.EmailService$$FastClassBySpringCGLIB$$d9c63061.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115) ~[spring-aop-5.3.24.jar:5.3.24]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2022-12-24 23:16:00.015  INFO 7352 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 23:16:00.030  INFO 7352 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong01
+2022-12-24 23:16:00.031  INFO 7352 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong02
+2022-12-24 23:16:00.033 ERROR 7352 --- [task-4] org.thymeleaf.TemplateEngine             : [THYMELEAF][task-4] Exception processing template "email/brithdate.html": Error resolving template [email/brithdate.html], template might not exist or might not be accessible by any of the configured Template Resolvers
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [email/brithdate.html], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1059) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1048) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at jmaster.io.project2.service.EmailService.sendBirthdate(EmailService.java:35) ~[classes/:na]
+	at jmaster.io.project2.service.EmailService$$FastClassBySpringCGLIB$$d9c63061.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115) ~[spring-aop-5.3.24.jar:5.3.24]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2022-12-24 23:16:00.034 ERROR 7352 --- [task-3] org.thymeleaf.TemplateEngine             : [THYMELEAF][task-3] Exception processing template "email/brithdate.html": Error resolving template [email/brithdate.html], template might not exist or might not be accessible by any of the configured Template Resolvers
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [email/brithdate.html], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1059) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1048) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at jmaster.io.project2.service.EmailService.sendBirthdate(EmailService.java:35) ~[classes/:na]
+	at jmaster.io.project2.service.EmailService$$FastClassBySpringCGLIB$$d9c63061.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115) ~[spring-aop-5.3.24.jar:5.3.24]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2022-12-24 23:16:00.037 ERROR 7352 --- [task-4] .a.i.SimpleAsyncUncaughtExceptionHandler : Unexpected exception occurred invoking async method: public void jmaster.io.project2.service.EmailService.sendBirthdate(java.lang.String,java.lang.String)
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [email/brithdate.html], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1059) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1048) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at jmaster.io.project2.service.EmailService.sendBirthdate(EmailService.java:35) ~[classes/:na]
+	at jmaster.io.project2.service.EmailService$$FastClassBySpringCGLIB$$d9c63061.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115) ~[spring-aop-5.3.24.jar:5.3.24]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2022-12-24 23:16:00.037 ERROR 7352 --- [task-3] .a.i.SimpleAsyncUncaughtExceptionHandler : Unexpected exception occurred invoking async method: public void jmaster.io.project2.service.EmailService.sendBirthdate(java.lang.String,java.lang.String)
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [email/brithdate.html], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1059) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1048) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at jmaster.io.project2.service.EmailService.sendBirthdate(EmailService.java:35) ~[classes/:na]
+	at jmaster.io.project2.service.EmailService$$FastClassBySpringCGLIB$$d9c63061.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115) ~[spring-aop-5.3.24.jar:5.3.24]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2022-12-24 23:17:00.001  INFO 7352 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 23:17:00.006  INFO 7352 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong01
+2022-12-24 23:17:00.007  INFO 7352 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong02
+2022-12-24 23:17:00.008 ERROR 7352 --- [task-5] org.thymeleaf.TemplateEngine             : [THYMELEAF][task-5] Exception processing template "email/brithdate.html": Error resolving template [email/brithdate.html], template might not exist or might not be accessible by any of the configured Template Resolvers
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [email/brithdate.html], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1059) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1048) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at jmaster.io.project2.service.EmailService.sendBirthdate(EmailService.java:35) ~[classes/:na]
+	at jmaster.io.project2.service.EmailService$$FastClassBySpringCGLIB$$d9c63061.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115) ~[spring-aop-5.3.24.jar:5.3.24]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2022-12-24 23:17:00.009 ERROR 7352 --- [task-6] org.thymeleaf.TemplateEngine             : [THYMELEAF][task-6] Exception processing template "email/brithdate.html": Error resolving template [email/brithdate.html], template might not exist or might not be accessible by any of the configured Template Resolvers
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [email/brithdate.html], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1059) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1048) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at jmaster.io.project2.service.EmailService.sendBirthdate(EmailService.java:35) ~[classes/:na]
+	at jmaster.io.project2.service.EmailService$$FastClassBySpringCGLIB$$d9c63061.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115) ~[spring-aop-5.3.24.jar:5.3.24]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2022-12-24 23:17:00.010 ERROR 7352 --- [task-5] .a.i.SimpleAsyncUncaughtExceptionHandler : Unexpected exception occurred invoking async method: public void jmaster.io.project2.service.EmailService.sendBirthdate(java.lang.String,java.lang.String)
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [email/brithdate.html], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1059) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1048) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at jmaster.io.project2.service.EmailService.sendBirthdate(EmailService.java:35) ~[classes/:na]
+	at jmaster.io.project2.service.EmailService$$FastClassBySpringCGLIB$$d9c63061.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115) ~[spring-aop-5.3.24.jar:5.3.24]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2022-12-24 23:17:00.014 ERROR 7352 --- [task-6] .a.i.SimpleAsyncUncaughtExceptionHandler : Unexpected exception occurred invoking async method: public void jmaster.io.project2.service.EmailService.sendBirthdate(java.lang.String,java.lang.String)
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [email/brithdate.html], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1059) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1048) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at jmaster.io.project2.service.EmailService.sendBirthdate(EmailService.java:35) ~[classes/:na]
+	at jmaster.io.project2.service.EmailService$$FastClassBySpringCGLIB$$d9c63061.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115) ~[spring-aop-5.3.24.jar:5.3.24]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2022-12-24 23:18:00.002  INFO 7352 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 23:18:00.008  INFO 7352 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong01
+2022-12-24 23:18:00.009  INFO 7352 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong02
+2022-12-24 23:18:00.011 ERROR 7352 --- [task-7] org.thymeleaf.TemplateEngine             : [THYMELEAF][task-7] Exception processing template "email/brithdate.html": Error resolving template [email/brithdate.html], template might not exist or might not be accessible by any of the configured Template Resolvers
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [email/brithdate.html], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1059) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1048) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at jmaster.io.project2.service.EmailService.sendBirthdate(EmailService.java:35) ~[classes/:na]
+	at jmaster.io.project2.service.EmailService$$FastClassBySpringCGLIB$$d9c63061.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115) ~[spring-aop-5.3.24.jar:5.3.24]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2022-12-24 23:18:00.012 ERROR 7352 --- [task-8] org.thymeleaf.TemplateEngine             : [THYMELEAF][task-8] Exception processing template "email/brithdate.html": Error resolving template [email/brithdate.html], template might not exist or might not be accessible by any of the configured Template Resolvers
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [email/brithdate.html], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1059) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1048) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at jmaster.io.project2.service.EmailService.sendBirthdate(EmailService.java:35) ~[classes/:na]
+	at jmaster.io.project2.service.EmailService$$FastClassBySpringCGLIB$$d9c63061.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115) ~[spring-aop-5.3.24.jar:5.3.24]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2022-12-24 23:18:00.014 ERROR 7352 --- [task-8] .a.i.SimpleAsyncUncaughtExceptionHandler : Unexpected exception occurred invoking async method: public void jmaster.io.project2.service.EmailService.sendBirthdate(java.lang.String,java.lang.String)
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [email/brithdate.html], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1059) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1048) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at jmaster.io.project2.service.EmailService.sendBirthdate(EmailService.java:35) ~[classes/:na]
+	at jmaster.io.project2.service.EmailService$$FastClassBySpringCGLIB$$d9c63061.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115) ~[spring-aop-5.3.24.jar:5.3.24]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2022-12-24 23:18:00.015 ERROR 7352 --- [task-7] .a.i.SimpleAsyncUncaughtExceptionHandler : Unexpected exception occurred invoking async method: public void jmaster.io.project2.service.EmailService.sendBirthdate(java.lang.String,java.lang.String)
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [email/brithdate.html], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1059) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1048) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at jmaster.io.project2.service.EmailService.sendBirthdate(EmailService.java:35) ~[classes/:na]
+	at jmaster.io.project2.service.EmailService$$FastClassBySpringCGLIB$$d9c63061.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115) ~[spring-aop-5.3.24.jar:5.3.24]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2022-12-24 23:19:00.006  INFO 7352 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 23:19:00.010  INFO 7352 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong01
+2022-12-24 23:19:00.011  INFO 7352 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong02
+2022-12-24 23:19:00.013 ERROR 7352 --- [task-9] org.thymeleaf.TemplateEngine             : [THYMELEAF][task-9] Exception processing template "email/brithdate.html": Error resolving template [email/brithdate.html], template might not exist or might not be accessible by any of the configured Template Resolvers
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [email/brithdate.html], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1059) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1048) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at jmaster.io.project2.service.EmailService.sendBirthdate(EmailService.java:35) ~[classes/:na]
+	at jmaster.io.project2.service.EmailService$$FastClassBySpringCGLIB$$d9c63061.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115) ~[spring-aop-5.3.24.jar:5.3.24]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2022-12-24 23:19:00.014 ERROR 7352 --- [task-10] org.thymeleaf.TemplateEngine             : [THYMELEAF][task-10] Exception processing template "email/brithdate.html": Error resolving template [email/brithdate.html], template might not exist or might not be accessible by any of the configured Template Resolvers
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [email/brithdate.html], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1059) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1048) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at jmaster.io.project2.service.EmailService.sendBirthdate(EmailService.java:35) ~[classes/:na]
+	at jmaster.io.project2.service.EmailService$$FastClassBySpringCGLIB$$d9c63061.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115) ~[spring-aop-5.3.24.jar:5.3.24]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2022-12-24 23:19:00.016 ERROR 7352 --- [task-9] .a.i.SimpleAsyncUncaughtExceptionHandler : Unexpected exception occurred invoking async method: public void jmaster.io.project2.service.EmailService.sendBirthdate(java.lang.String,java.lang.String)
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [email/brithdate.html], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1059) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1048) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at jmaster.io.project2.service.EmailService.sendBirthdate(EmailService.java:35) ~[classes/:na]
+	at jmaster.io.project2.service.EmailService$$FastClassBySpringCGLIB$$d9c63061.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115) ~[spring-aop-5.3.24.jar:5.3.24]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2022-12-24 23:19:00.017 ERROR 7352 --- [task-10] .a.i.SimpleAsyncUncaughtExceptionHandler : Unexpected exception occurred invoking async method: public void jmaster.io.project2.service.EmailService.sendBirthdate(java.lang.String,java.lang.String)
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [email/brithdate.html], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1059) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1048) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at jmaster.io.project2.service.EmailService.sendBirthdate(EmailService.java:35) ~[classes/:na]
+	at jmaster.io.project2.service.EmailService$$FastClassBySpringCGLIB$$d9c63061.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115) ~[spring-aop-5.3.24.jar:5.3.24]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2022-12-24 23:20:00.013  INFO 7352 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : Sat Dec 24 12:00:00 ICT 2022
+2022-12-24 23:20:00.019  INFO 7352 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong01
+2022-12-24 23:20:00.020  INFO 7352 --- [scheduling-1] jmaster.io.project2.jobs.BirthDateJob    : cuong02
+2022-12-24 23:20:00.022 ERROR 7352 --- [task-11] org.thymeleaf.TemplateEngine             : [THYMELEAF][task-11] Exception processing template "email/brithdate.html": Error resolving template [email/brithdate.html], template might not exist or might not be accessible by any of the configured Template Resolvers
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [email/brithdate.html], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1059) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1048) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at jmaster.io.project2.service.EmailService.sendBirthdate(EmailService.java:35) ~[classes/:na]
+	at jmaster.io.project2.service.EmailService$$FastClassBySpringCGLIB$$d9c63061.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115) ~[spring-aop-5.3.24.jar:5.3.24]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2022-12-24 23:20:00.023 ERROR 7352 --- [task-12] org.thymeleaf.TemplateEngine             : [THYMELEAF][task-12] Exception processing template "email/brithdate.html": Error resolving template [email/brithdate.html], template might not exist or might not be accessible by any of the configured Template Resolvers
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [email/brithdate.html], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1059) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1048) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at jmaster.io.project2.service.EmailService.sendBirthdate(EmailService.java:35) ~[classes/:na]
+	at jmaster.io.project2.service.EmailService$$FastClassBySpringCGLIB$$d9c63061.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115) ~[spring-aop-5.3.24.jar:5.3.24]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2022-12-24 23:20:00.024 ERROR 7352 --- [task-11] .a.i.SimpleAsyncUncaughtExceptionHandler : Unexpected exception occurred invoking async method: public void jmaster.io.project2.service.EmailService.sendBirthdate(java.lang.String,java.lang.String)
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [email/brithdate.html], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1059) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1048) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at jmaster.io.project2.service.EmailService.sendBirthdate(EmailService.java:35) ~[classes/:na]
+	at jmaster.io.project2.service.EmailService$$FastClassBySpringCGLIB$$d9c63061.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115) ~[spring-aop-5.3.24.jar:5.3.24]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2022-12-24 23:20:00.024 ERROR 7352 --- [task-12] .a.i.SimpleAsyncUncaughtExceptionHandler : Unexpected exception occurred invoking async method: public void jmaster.io.project2.service.EmailService.sendBirthdate(java.lang.String,java.lang.String)
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [email/brithdate.html], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1059) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1048) ~[thymeleaf-3.0.15.RELEASE.jar:3.0.15.RELEASE]
+	at jmaster.io.project2.service.EmailService.sendBirthdate(EmailService.java:35) ~[classes/:na]
+	at jmaster.io.project2.service.EmailService$$FastClassBySpringCGLIB$$d9c63061.invoke(<generated>) ~[classes/:na]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763) ~[spring-aop-5.3.24.jar:5.3.24]
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115) ~[spring-aop-5.3.24.jar:5.3.24]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2022-12-24 23:20:49.376  INFO 7352 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-24 23:20:49.379  INFO 7352 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-12-24 23:20:49.389  INFO 7352 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

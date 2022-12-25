@@ -8,8 +8,13 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 
 import java.util.Date;
+import java.util.List;
 
 public interface UserRepo extends JpaRepository<User, Integer> {
+    @Query("select u from User u where month(u.birthdate) = :m and day(u.birthdate) = :d ")
+    List<User> findByBirthdate(@Param("d") int d, @Param("m") int m);
+
+
     // tat ca Phan Trang
 
     // tim theo Name
