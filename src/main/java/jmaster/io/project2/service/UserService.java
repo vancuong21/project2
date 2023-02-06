@@ -9,6 +9,9 @@ import jmaster.io.project2.repo.UserRepo;
 import jmaster.io.project2.repo.UserRoleRepo;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.CacheManager;
+import org.springframework.cache.annotation.CacheEvict;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
@@ -25,6 +28,8 @@ public class UserService {
     UserRepo userRepo;
     @Autowired
     UserRoleRepo userRoleRepo;
+    @Autowired
+    CacheManager cacheManager;
 
     @Transactional
     public void create(UserDTO userDTO) {
@@ -78,14 +83,19 @@ public class UserService {
 
     // delete by user id
     @Transactional
+    @CacheEvict(cacheNames = "users", key = "#id")
     public void delete(int id) {
         userRepo.deleteById(id);
     }
 
     // delete All
     @Transactional
+    //  @CacheEvict(cacheNames = "users", allEntries = true)
     public void deleteAll(List<Integer> ids) {
         userRepo.deleteAllById(ids);
+        for (int id : ids) {
+            cacheManager.getCache("users").evict(id);
+        }
     }
 
     public PageDTO<UserDTO> searchByName(String name, int page, int size) {
@@ -107,7 +117,9 @@ public class UserService {
     }
 
     // lay nguoc ra : repo lay id -> service : tra ra dto -> controller
+    @Cacheable(cacheNames = "users", unless = "#result == null ")
     public UserDTO getById(int id) {
+        System.out.println("NO CACHE");
         User user = userRepo.findById(id).orElseThrow(NoResultException::new); // ko tim thay thi ban ra exception
         UserDTO userDTO = new UserDTO();
 

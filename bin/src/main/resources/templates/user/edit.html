@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>edit user</title>
+</head>
+<body>
+<h1>Edit User</h1>
+
+<form method="post" th:action="@{/user/edit}">
+    <div>
+        <input name="id" placeholder="Enter id..." th:value="${user.id}"
+               type="number">
+    </div>
+    <div>
+        <input name="name" placeholder="Enter name..." th:value="${user.getName()}"
+               type="text">
+    </div>
+    <div>
+        <button type="submit">Update</button>
+    </div>
+</form>
+</body>
+</html>

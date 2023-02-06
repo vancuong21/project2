@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html layout:decorate="/template.html">
+
+<head>
+    <meta charset="UTF-8">
+    <title>User List</title>
+</head>
+
+<body layout:fragment="body">
+
+<h1>Users</h1>
+<a th:href="@{/user/new}">Add new</a>
+
+<form method="get" th:action="@{/user/search}">
+    <input name="id" placeholder="Enter id..." th:value="${id}" type="text">
+    <input name="name" placeholder="Enter name..." th:value="${name}" type="text">
+    <input name="start" placeholder="Enter start dd/MM/yyyy HH:mm" th:value="${start}" type="text">
+    <input name="end" placeholder="Enter end dd/MM/yyyy HH:mm" th:value="${end}" type="text">
+
+    <input name="page" placeholder="Enter page..." th:value="${page}" type="text">
+
+    <select name="size">
+        <option th:selected="${size == 5}" value="5">5</option>
+        <option th:selected="${size == 10}" value="10">10</option>
+    </select>
+
+    <button type="submit">Search</button>
+</form>
+
+<table border="1">
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Avatar</th>
+        <th>CreatedAt</th>
+        <th>Actions</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="d : ${userList}">
+        <td th:text="${d.id}"></td>
+        <td th:text="${d.name}"></td>
+
+        <td><img height="100" th:src="@{'/user/download?filename=' + ${d.avatar}}"></td>
+
+        <td th:text="${#dates.format(d.createdAt, 'dd/MM/yyyy HH:mm')}"></td>
+        <td>
+            <a th:href="@{'/department/get/' + ${d.id}}">View</a>
+            <a th:href="@{'/department/edit?id=' + ${d.id}}">Edit</a>
+            <a th:href="@{'/department/delete?id=' + ${d.id}}">Delete</a>
+        </td>
+    </tr>
+    </tbody>
+    <tfoot>
+    <tr>
+        <td colspan="4">
+            Tổng <span th:text="${count}"></span> bản ghi trong <span th:text="${totalPage}"></span> trang
+        </td>
+    </tr>
+    </tfoot>
+</table>
+</body>
+
+</html>

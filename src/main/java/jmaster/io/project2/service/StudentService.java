@@ -9,6 +9,9 @@ import jmaster.io.project2.repo.StudentRepo;
 import jmaster.io.project2.repo.UserRepo;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.CacheEvict;
+import org.springframework.cache.annotation.Cacheable;
+import org.springframework.cache.annotation.Caching;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
@@ -28,6 +31,7 @@ public class StudentService {
     UserRepo userRepo;
 
     @Transactional
+    @CacheEvict(cacheNames = "students", allEntries = true)
     public void create(StudentDTO studentDTO) {
         // them: check user if role = ROLE_STUDENT
         User user = userRepo.findById(studentDTO.getId()).orElseThrow(NoResultException::new);
@@ -45,6 +49,11 @@ public class StudentService {
     }
 
     @Transactional
+ //   @CacheEvict(cacheNames = "students", allEntries = true) // cach 1
+    @Caching(evict = {
+            @CacheEvict(cacheNames = "students", allEntries = true), // cach 2 : xoa cache nhieu
+            @CacheEvict(cacheNames = "users", allEntries = true)
+    })
     public void update(StudentDTO studentDTO) {
         Student student = studentRepo.findById(studentDTO.getId()).orElseThrow(NoResultException::new);
 
@@ -71,6 +80,7 @@ public class StudentService {
 
 
     // nhom search
+    @Cacheable(cacheNames = "students") // luu gia tri tra ve trong bo nho cache
     public PageDTO<StudentDTO> search(String name, String studentCode, int page, int size) {
         Pageable pageable = PageRequest.of(page, size);
 

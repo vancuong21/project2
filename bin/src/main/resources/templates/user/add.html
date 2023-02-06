@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add New User</title>
+</head>
+<body>
+<h1>Add New User</h1>
+<form enctype="multipart/form-data" method="post" th:action="@{/user/new}">
+    <div>
+        <input name="name" placeholder="enter name..." type="text">
+    </div>
+    <div>
+        <input name="username" placeholder="enter username..." type="text">
+    </div>
+    <div>
+        <input name="password" placeholder="enter password..." type="text">
+    </div>
+    <div>
+        <input name="birthdate" placeholder="enter birthdate" type="text">
+    </div>
+    <div>
+        <input accept="image/*" name="file" type="file">
+    </div>
+
+    <div>
+        <input name="userRoles[0].role" type="checkbox" value="ROLE_ADMIN">ROLE_ADMIN
+    </div>
+    <div>
+        <input name="userRoles[1].role" type="checkbox" value="ROLE_STUDENT">ROLE_STUDENT
+    </div>
+
+
+    <div>
+        <button type="submit">Create</button>
+    </div>
+</form>
+</body>
+</html>

@@ -10,7 +10,10 @@ import org.springframework.web.bind.annotation.*;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Date;
+import java.util.List;
 
 @RestController
 @RequestMapping("/api/user")
@@ -46,6 +49,11 @@ public class RESTUserController {
     @GetMapping("/delete")
     public ResponseDTO<Void> delete(@RequestParam("id") int id) {
         userService.delete(id);
+        return ResponseDTO.<Void>builder().status(200).build();
+    }
+    @GetMapping("/delete-all/{ids}")
+    public ResponseDTO<Void> deleteAll(@PathVariable("ids") List<Integer> ids) {
+        userService.deleteAll(ids);
         return ResponseDTO.<Void>builder().status(200).build();
     }
 
