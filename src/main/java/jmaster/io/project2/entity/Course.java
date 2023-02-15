@@ -16,5 +16,4 @@ public class Course {
     private Integer id;
     private String name;
 
-    // có thể thêm @OneToMany List<Scrore> nếu cần
 }

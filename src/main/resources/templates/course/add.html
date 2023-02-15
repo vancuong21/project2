@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" layout:decorate="/template.html">
+<head>
+    <meta charset="UTF-8">
+    <title>add new Course</title>
+</head>
+<body layout:fragment="body">
+<h1>add new course </h1>
+<form method="post" th:action="@{/course/new}">
+    <div>
+        <input name="name" placeholder="enter name" type="text">
+    </div>
+
+    <div>
+        <button type="submit">Create</button>
+    </div>
+</form>
+</body>
+</html>

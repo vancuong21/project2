@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>edit student</title>
+</head>
+<body>
+<h1>Edit Score</h1>
+
+<form method="post" th:action="@{/score/edit}">
+    <div>
+        <input name="id" placeholder="enter score.id..." th:value="${score.id}" type="text">ID
+    </div>
+    <div>
+        <input name="courseId" placeholder="enter courseId..." th:value="${score.courseId}" type="text">courseId
+    </div>
+    <div>
+        <input name="studentId" placeholder="enter studentId..." th:value="${score.studentId}" type="text">studentId
+    </div>
+    <div>
+        <input name="score" placeholder="enter score..." th:value="${score.score}" type="text">score
+    </div>
+
+    <div>
+        <button type="submit">Update</button>
+    </div>
+</form>
+</body>
+</html>

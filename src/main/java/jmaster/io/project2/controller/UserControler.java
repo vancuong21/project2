@@ -116,8 +116,6 @@ public class UserControler {
         model.addAttribute("count", pageRS.getTotalElements());
         model.addAttribute("userList", pageRS.getContents());
 
-
-        // luu lai du lieu set sang view lai
         model.addAttribute("id", id);
         model.addAttribute("name", name);
         model.addAttribute("start", start);

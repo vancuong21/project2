@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" layout:decorate="/template.html">
+<head>
+    <meta charset="UTF-8">
+    <title>add new User</title>
+</head>
+<body layout:fragment="body">
+<h1>add new score </h1>
+<form method="post" th:action="@{/score/new}">
+    <div>
+        <input name="courseId" placeholder="enter courseId" type="text">
+    </div>
+    <div>
+        <input name="studentId" placeholder="enter studentId" type="text">
+    </div>
+    <div>
+        <input name="score" placeholder="enter score" type="text">
+    </div>
+
+    <div>
+        <button type="submit">Create</button>
+    </div>
+</form>
+</body>
+</html>

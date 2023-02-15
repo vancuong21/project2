@@ -41,7 +41,7 @@ public class UserRoleController {
 
     @GetMapping("/get/{id}") // get/1
     public String get(@PathVariable("id") int id, Model model) {
-        model.addAttribute("user", userRoleService.getById(id));
+        model.addAttribute("userRole", userRoleService.getById(id));
         return "userrole/detail.html";
     }
 

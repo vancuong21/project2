@@ -9,7 +9,4 @@ public class UserRoleDTO {
     private String userName;
     private String role; // ADMIN, MEMBER
 
-//    @JsonIgnoreProperties("userRoles")// Cach1: lấy UserDTO bỏ qua thuộc tính userRoles : tránh vòng lặp vô hạn
-//    @JsonBackReference // cach 2
-//    private UserDTO user;
 }

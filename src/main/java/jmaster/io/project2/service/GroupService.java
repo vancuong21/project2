@@ -38,7 +38,6 @@ public class GroupService {
             users.add(user);
         }
         group.setUsers(users);
-
         groupRepo.save(group);
     }
 

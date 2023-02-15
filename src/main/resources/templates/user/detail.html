@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html layout:decorate="/template.html">
+<head>
+    <meta charset="UTF-8">
+    <title>Department</title>
+</head>
+<body layout:fragment="body">
+<h2>User  Info</h2>
+<p th:text="${user.id}"></p>
+<p th:text="${user.name}"></p>
+<p th:text="${user.username}"></p>
+<p th:text="${user.birthdate}"></p>
+<p th:text="${user.createdAt}"></p>
+<p th:text="${user.userRoles}"></p>
+
+</body>
+</html>

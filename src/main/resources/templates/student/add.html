@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" layout:decorate="/template.html">
+<head>
+    <meta charset="UTF-8">
+    <title>add new student</title>
+</head>
+<body layout:fragment="body">
+<h1>add new user role </h1>
+<form method="post" th:action="@{/student/new}">
+    <div>
+        <input name="student.userId" placeholder="enter student.userId ..." type="text">
+    </div>
+    <div>
+        <input name="studentCode" placeholder="enter studentCode..." type="text">
+    </div>
+    <div>
+        <button type="submit">Create</button>
+    </div>
+</form>
+</body>
+</html>

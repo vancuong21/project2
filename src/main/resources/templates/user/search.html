@@ -32,6 +32,8 @@
     <tr>
         <th>ID</th>
         <th>Name</th>
+        <th>UserName</th>
+        <th>BirthDate</th>
         <th>Avatar</th>
         <th>CreatedAt</th>
         <th>Actions</th>
@@ -41,14 +43,16 @@
     <tr th:each="d : ${userList}">
         <td th:text="${d.id}"></td>
         <td th:text="${d.name}"></td>
+        <td th:text="${d.username}"></td>
+        <td th:text="${d.birthdate}"></td>
 
         <td><img height="100" th:src="@{'/user/download?filename=' + ${d.avatar}}"></td>
 
         <td th:text="${#dates.format(d.createdAt, 'dd/MM/yyyy HH:mm')}"></td>
         <td>
-            <a th:href="@{'/department/get/' + ${d.id}}">View</a>
-            <a th:href="@{'/department/edit?id=' + ${d.id}}">Edit</a>
-            <a th:href="@{'/department/delete?id=' + ${d.id}}">Delete</a>
+            <a th:href="@{'/user/get/' + ${d.id}}">View</a>
+            <a th:href="@{'/user/edit?id=' + ${d.id}}">Edit</a>
+            <a th:href="@{'/user/delete?id=' + ${d.id}}">Delete</a>
         </td>
     </tr>
     </tbody>

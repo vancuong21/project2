@@ -12,7 +12,5 @@ public class GroupDTO {
     @NotBlank
     @Size(min = 6)
     private String name;
-
-    //    @JsonIgnore //loi o thang nay
     private List<UserDTO> users;
 }

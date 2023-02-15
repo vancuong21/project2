@@ -11,9 +11,4 @@ public interface GroupRepo extends JpaRepository<Group, Integer> {
     @Query("SELECT g FROM Group g join g.users u where u.name like :x ")
     Page<Group> searchByName(@Param("x") String s, Pageable pageable);
 
-    @Query("select g from Group  g join g.users u where u.id = :uid")
-    Page<Group> searchByUserId(@Param("uid") int userId, Pageable pageable);
-
-    @Query("SELECT g FROM Group g join g.users u where u.name like :x ")
-    Page<Group> searchByUsersName(@Param("x") String s, Pageable pageable);
 }

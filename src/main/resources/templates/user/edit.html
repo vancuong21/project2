@@ -9,13 +9,29 @@
 
 <form method="post" th:action="@{/user/edit}">
     <div>
-        <input name="id" placeholder="Enter id..." th:value="${user.id}"
-               type="number">
+        <input name="id" placeholder="enter userId..." th:value="${user.id}" type="text">
     </div>
     <div>
-        <input name="name" placeholder="Enter name..." th:value="${user.getName()}"
-               type="text">
+        <input name="name" placeholder="enter name..." type="text"  th:value="${user.name}">
     </div>
+    <div>
+        <input name="username" placeholder="enter username..." type="text"  th:value="${user.username}">
+    </div>
+
+    <div>
+        <input name="birthdate" placeholder="enter birthdate" type="text"  th:value="${user.birthdate}">
+    </div>
+    <div>
+        <input accept="image/*" name="file" type="file" th:value="${user.avata}">
+    </div>
+
+    <div>
+        <input checked="${userRoles.role == 'ROLE_ADMIN'}" name="role" type="radio" value="ROLE_ADMIN">ROLE_ADMIN
+    </div>
+    <div>
+        <input checked="${userRoles.role == 'ROLE_STUDENT'}" name="role" type="radio" value="ROLE_STUDENT">ROLE_STUDENT
+    </div>
+
     <div>
         <button type="submit">Update</button>
     </div>

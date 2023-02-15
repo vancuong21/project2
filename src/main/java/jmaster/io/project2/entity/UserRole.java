@@ -10,8 +10,7 @@ public class UserRole {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
-    @ManyToOne // many UserRole - one User
-    //@JoinColumn("user_id") // mac dinh tu gen
+    @ManyToOne
     private User user;
     private String role; // ADMIN, MEMBER
 }

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>edit user</title>
+</head>
+<body>
+<h1>Edit Student Role</h1>
+
+<form method="post" th:action="@{/student/edit}">
+    <div>
+        <input name="id" placeholder="enter userId..." th:value="${student.id}" type="text">ID
+    </div>
+    <div>
+        <input name="student.userId" placeholder="enter student.userId..." th:value="${student.userId}" type="text">userId
+    </div>
+    <div>
+        <input name="studentCode" placeholder="enter studentCode..." th:value="${student.studentCode}" type="text">studentCode
+    </div>
+    <div>
+        <button type="submit">Update</button>
+    </div>
+</form>
+</body>
+</html>

@@ -29,30 +29,14 @@ public class User {
     private String password;
     @DateTimeFormat(pattern = "dd/MM/yyyy")
     private Date birthdate;
-
-    //    @Transient // bo qua file , ko luu file vao db
-//    private MultipartFile file;
     @CreatedDate // tu gen
     @Column(updatable = false)
     private Date createdAt;
     @LastModifiedDate
     private Date lastUpdateAt;
-
-    // khong bat buoc,  1 user cos 1 ds userrole
-    // dùng khi lấy danh sách userRole như 1 thuộc tính, thì sẽ tạo thêm
-    // mappedBy : ten thuoc tinh ban UserRole
     @OneToMany(mappedBy = "user", fetch = FetchType.LAZY)
     private List<UserRole> userRoles;
-
-    // tuong tu, dùng khi cần thiết
     @ManyToMany(mappedBy = "users", fetch = FetchType.LAZY)
     private List<Group> groups;
-
-    // cách tắt để join bảng trung gian, chỉ dùng khi có 2 thuộc tính : vd user_id và role
-//    @ElementCollection
-//    @CollectionTable(name = "user_role", joinColumns = @JoinColumn(name = "user_id"))
-//    @Column(name = "role")
-//    private List<String> roles;
-
     private String email;
 }

@@ -31,34 +31,22 @@ public class StudentService {
     UserRepo userRepo;
 
     @Transactional
-    @CacheEvict(cacheNames = "students", allEntries = true)
     public void create(StudentDTO studentDTO) {
-        // them: check user if role = ROLE_STUDENT
         User user = userRepo.findById(studentDTO.getId()).orElseThrow(NoResultException::new);
 
         for (UserRole userRole : user.getUserRoles()) {
             if (userRole.getRole().equals("ROLE_STUDENT")) {
                 Student student = new Student();
-                student.setId(studentDTO.getId());
                 student.setStudentCode(studentDTO.getStudentCode());
-
                 studentRepo.save(student);
-                return; // ket thuc
             }
         }
     }
 
     @Transactional
- //   @CacheEvict(cacheNames = "students", allEntries = true) // cach 1
-    @Caching(evict = {
-            @CacheEvict(cacheNames = "students", allEntries = true), // cach 2 : xoa cache nhieu
-            @CacheEvict(cacheNames = "users", allEntries = true)
-    })
     public void update(StudentDTO studentDTO) {
         Student student = studentRepo.findById(studentDTO.getId()).orElseThrow(NoResultException::new);
-
         student.setStudentCode(studentDTO.getStudentCode());
-
         studentRepo.save(student);
     }
 
@@ -80,19 +68,10 @@ public class StudentService {
 
 
     // nhom search
-    @Cacheable(cacheNames = "students") // luu gia tri tra ve trong bo nho cache
-    public PageDTO<StudentDTO> search(String name, String studentCode, int page, int size) {
+    public PageDTO<StudentDTO> searchByCode( String studentCode, int page, int size) {
         Pageable pageable = PageRequest.of(page, size);
 
-        Page<Student> pageRS = null;
-        if (StringUtils.hasText(name) && StringUtils.hasText(studentCode))
-            pageRS = studentRepo.searchByNameAndCode(name, studentCode, pageable);
-        else if (StringUtils.hasText(name))
-            pageRS = studentRepo.searchByName(name, pageable);
-        else if (StringUtils.hasText(studentCode))
-            pageRS = studentRepo.searchByCode(studentCode, pageable);
-        else
-            pageRS = studentRepo.findAll(pageable);
+        Page<Student> pageRS = studentRepo.searchByCode("%" + studentCode + "%", pageable);
 
         PageDTO<StudentDTO> pageDTO = new PageDTO<>();
         pageDTO.setTotalPages(pageRS.getTotalPages());

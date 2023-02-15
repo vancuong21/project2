@@ -19,12 +19,9 @@ public class UserDTO {
     private String username;
     private String password;
     @DateTimeFormat(pattern = "dd/MM/yyyy") // dung cho form-data
-    @JsonFormat(pattern = "dd/MM/yyyy") // dung cho JSON
     private Date birthdate;
-    @JsonIgnore // de bo qua , khi dung REST
+
     private MultipartFile file;
     private Date createdAt;
-
-    //      @JsonManagedReference // bên này vẫn lấy full, còn bên UserRoleDTO... ben kia ko de jsonbank thi fai bo cho nay di
     private List<UserRoleDTO> userRoles;
 }

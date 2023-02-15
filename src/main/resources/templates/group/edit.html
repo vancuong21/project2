@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>edit user</title>
+</head>
+<body>
+<h1>Edit group</h1>
+
+<form method="post" th:action="@{/group/edit}">
+    <div>
+        <input name="id" placeholder="enter group.id..." th:value="${group.id}" type="text">ID
+    </div>
+    <div>
+        <input name="userId" placeholder="enter userId..." th:value="${group.userId}" type="text">userId
+    </div>
+    <div>
+        <input name="name" placeholder="enter name..." th:value="${group.name}" type="text">name
+    </div>
+
+    <div>
+        <button type="submit">Update</button>
+    </div>
+</form>
+</body>
+</html>

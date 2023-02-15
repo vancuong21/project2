@@ -8,12 +8,11 @@
 
 <body>
 
-<h1>User Role List</h1>
-<a th:href="@{/user-role/new}">Add new</a>
+<h1>student List</h1>
+<a th:href="@{/student/new}">Add new</a>
 
-<form method="get" th:action="@{/user-role/search}">
-    <input name="userId" placeholder="Enter userId..." th:value="${userId}" type="text">
-    <input name="role" placeholder="Enter role..." th:value="${role}" type="text">
+<form method="get" th:action="@{/student/search}">
+    <input name="studentCode" placeholder="Enter studentCode..." th:value="${studentCode}" type="text">
     <input name="page" placeholder="Enter page..." th:value="${page}" type="text">
 
     <select name="size">
@@ -28,23 +27,22 @@
     <thead>
     <tr>
         <th>ID</th>
-        <th>Role</th>
-        <th>User ID</th>
+        <th>userId</th>
+        <th>studentCode</th>
         <th>Actions</th>
 
     </tr>
     </thead>
     <tbody>
-    <tr th:each="d : ${userRoleList}">
+    <tr th:each="d : ${studentList}">
         <td th:text="${d.id}"></td>
-        <td th:text="${d.role}"></td>
         <td th:text="${d.userId}"></td>
-
+        <td th:text="${d.studentCode}"></td>
 
         <td>
-            <a th:href="@{'/user-role/get/' + ${d.id}}">View</a>
-            <a th:href="@{'/user-role/edit?id=' + ${d.id}}">Edit</a>
-            <a th:href="@{'/user-role/delete?id=' + ${d.id}}">Delete</a>
+            <a th:href="@{'/student/get/' + ${d.id}}">View</a>
+            <a th:href="@{'/student/edit?id=' + ${d.id}}">Edit</a>
+            <a th:href="@{'/student/delete?id=' + ${d.id}}">Delete</a>
         </td>
     </tr>
     </tbody>
